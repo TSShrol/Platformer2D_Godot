@@ -26,6 +26,7 @@ func apply_gravity():
 	else:
 		linear_velocity.y+=GRAVITY
 
+#function for mivong player
 func move():
 	if Input.is_action_pressed("left") and not Input.is_action_pressed("right"):
 		linear_velocity.x+=-SPEED
