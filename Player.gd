@@ -5,6 +5,7 @@ const SPEED=100
 const GRAVITY=200
 const UP=Vector2(0,-1)
 const JUMP_SPEED=2000
+const LEVEL_LIMIT=3000
 
 #var sprite=get_nod("Sprite")
 #var sprite=get_nod($Sprite)
@@ -19,6 +20,8 @@ func _physics_process(delta):
 	animate()	
 
 func apply_gravity():
+	if position.y>LEVEL_LIMIT:
+		finish_game()
 	if is_on_floor():
 		linear_velocity.y=0
 	elif is_on_ceiling():
@@ -53,3 +56,6 @@ func animate():
 	else:
 		sprite.play("idle")
 		
+
+func finish_game():
+	get_tree().change_scene("res://GameOver.tscn")
