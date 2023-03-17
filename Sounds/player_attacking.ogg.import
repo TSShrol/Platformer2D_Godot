@@ -11,5 +11,5 @@ dest_files=[ "res://.import/player_attacking.ogg-f8683a98bfaacc0c575eeed5621cc0a
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

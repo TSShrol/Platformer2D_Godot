@@ -6,6 +6,7 @@ const GRAVITY=200
 const UP=Vector2(0,-1)
 const JUMP_SPEED=2000
 const LEVEL_LIMIT=3000
+var lives=3
 
 #var sprite=get_nod("Sprite")
 #var sprite=get_nod($Sprite)
@@ -22,7 +23,7 @@ func _physics_process(delta):
 func apply_gravity():
 	if position.y>LEVEL_LIMIT:
 		finish_game()
-	if is_on_floor():
+	if is_on_floor() and linear_velocity.y>0:
 		linear_velocity.y=0
 	elif is_on_ceiling():
 		linear_velocity.y=1
@@ -42,6 +43,9 @@ func move():
 func jump():
 	if Input.is_action_pressed("jump") and is_on_floor():
 		linear_velocity.y-=JUMP_SPEED
+		$JumpSound.play()
+		#$AudioStreamPlayer.stream=load("res://Sounds/jump.ogg")
+		#$AudioStreamPlayer.play()
 
 
 func animate():
@@ -59,3 +63,15 @@ func animate():
 
 func finish_game():
 	get_tree().change_scene("res://GameOver.tscn")
+	
+
+func hurt():
+	position.y-=1
+	yield(get_tree(),"idle_frame")
+	lives-=1
+	if lives<1:
+		finish_game()
+	linear_velocity.y=JUMP_SPEED*0.9
+	$PainSound.play()
+	
+	

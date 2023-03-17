@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f60f60e-7436-45ee-adec-71445146cb3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.import/jump.ogg-cf9a5dda5f9a1f27d407d589973bfe69.md5" beforeDir="false" afterPath="$PROJECT_DIR$/.import/jump.ogg-cf9a5dda5f9a1f27d407d589973bfe69.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/jump.ogg-cf9a5dda5f9a1f27d407d589973bfe69.oggstr" beforeDir="false" afterPath="$PROJECT_DIR$/.import/jump.ogg-cf9a5dda5f9a1f27d407d589973bfe69.oggstr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/player_attacking.ogg-f8683a98bfaacc0c575eeed5621cc0af.md5" beforeDir="false" afterPath="$PROJECT_DIR$/.import/player_attacking.ogg-f8683a98bfaacc0c575eeed5621cc0af.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/player_attacking.ogg-f8683a98bfaacc0c575eeed5621cc0af.oggstr" beforeDir="false" afterPath="$PROJECT_DIR$/.import/player_attacking.ogg-f8683a98bfaacc0c575eeed5621cc0af.oggstr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/player_hurt.ogg-ea2c49664a834825bf951466126c4325.md5" beforeDir="false" afterPath="$PROJECT_DIR$/.import/player_hurt.ogg-ea2c49664a834825bf951466126c4325.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.import/player_hurt.ogg-ea2c49664a834825bf951466126c4325.oggstr" beforeDir="false" afterPath="$PROJECT_DIR$/.import/player_hurt.ogg-ea2c49664a834825bf951466126c4325.oggstr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Levels/Level1.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Levels/Level1.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player.gd" beforeDir="false" afterPath="$PROJECT_DIR$/Player.gd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Player.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sounds/jump.ogg.import" beforeDir="false" afterPath="$PROJECT_DIR$/Sounds/jump.ogg.import" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sounds/player_attacking.ogg.import" beforeDir="false" afterPath="$PROJECT_DIR$/Sounds/player_attacking.ogg.import" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sounds/player_hurt.ogg.import" beforeDir="false" afterPath="$PROJECT_DIR$/Sounds/player_hurt.ogg.import" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2N8wTQUnekaLv15XZyEkhAsXGDA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f60f60e-7436-45ee-adec-71445146cb3a" name="Default Changelist" comment="" />
+      <created>1679059048170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679059048170</updated>
+    </task>
+    <servers />
+  </component>
+</project>
