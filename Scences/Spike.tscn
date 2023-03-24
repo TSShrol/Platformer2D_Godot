@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Spike.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/Spike.gd" type="Script" id=1]
 [ext_resource path="res://Graphics/Items/spikes.png" type="Texture" id=2]
 
 [node name="Spike" type="Area2D"]
