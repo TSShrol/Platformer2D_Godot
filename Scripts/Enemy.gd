@@ -5,10 +5,14 @@ func _ready():
 	pass
 
 
-func _on_Spike_body_entered(body):
+func _on_Enemy_body_entered(body):
 	if body.has_method("hurt"):
 		get_tree().call_group("Rules","hurt")
-		#body.hurt()
+		body.hurt()
 	#if body.name=="Player"
 	#if body in KinematicBody2D
 	#print("Ой-йой!!!")
+
+
+func _on_Area2D_area_entered(area):
+	pass # Replace with function body.

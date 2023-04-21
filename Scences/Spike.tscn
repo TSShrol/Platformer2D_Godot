@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Scripts/Spike.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/Enemy.gd" type="Script" id=1]
 [ext_resource path="res://Graphics/Items/spikes.png" type="Texture" id=2]
 
 [node name="Spike" type="Area2D"]
@@ -14,4 +14,4 @@ texture = ExtResource( 2 )
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 polygon = PoolVector2Array( -23, 1, -35, 35, 35, 35, 23, 0 )
 
-[connection signal="body_entered" from="." to="." method="_on_Spike_body_entered"]
+[connection signal="body_entered" from="." to="." method="_on_Enemy_body_entered"]
