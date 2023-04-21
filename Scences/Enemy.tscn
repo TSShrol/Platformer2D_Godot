@@ -100,5 +100,8 @@ autoplay = "default"
 anims/RESET = SubResource( 3 )
 anims/default = SubResource( 4 )
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Area2D"]
+scale = Vector2( 0.666667, 0.666667 )
 stream = ExtResource( 4 )
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Enemy_body_entered"]
